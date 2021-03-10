@@ -121,28 +121,28 @@ body{
   text-align: center;
 }
 #li{
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 #github{
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 #twitter{
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 #email{
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 #blog{
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 /* TECH SKILLS */
@@ -153,6 +153,8 @@ body{
   font-size: 0.8rem;
   padding: 0.3rem;
   text-align: center;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 #html{
@@ -170,12 +172,98 @@ body{
   width: 4rem;
 }
 
+#ruby{
+  height: 4rem;
+  width: 4rem;
+}
+
+#react{
+  height: 4rem;
+  width: 4rem;
+}
+
+#redux{
+  height: 4rem;
+  width: 4rem;
+}
+
+#node{
+  height: 4rem;
+  width: 4rem;
+}
+
+#api{
+  height: 4rem;
+  width: 4rem;
+}
+
+#sql{
+  height: 4rem;
+  width: 4rem;
+}
+
 /* END OF TECH SKILLS */
+
+/* TECH PROJECTS  */
+.techProjects{
+  color: white;
+  border: 0.13rem solid white;
+  margin: 0.3rem;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  text-align: center;
+  width: 25%;
+}
+
+#D3Title{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#smallGHDEM{
+  text-align: center;
+}
+
+.d3{
+  text-align: left;
+}
+/* END OF TECH PROJECTS */
 /* END OF CENTER FLEX  */
+
+.education{
+  color: white;
+  border: 0.13rem solid white;
+  margin: 0.3rem;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  /* text-align: center; */
+  width: 95%;
+  margin-top: 3rem;
+}
+
+#eduTitle{
+  text-align: center;
+}
+
+.experience{
+  color: white;
+  border: 0.13rem solid white;
+  margin: 0.3rem;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  /* text-align: center; */
+  width: 95%;
+  margin-top: 3rem;
+}
+
+#exTitle{
+  text-align: center;
+}
+
 
 /* FOOTER  */
 .footer {
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
