@@ -6,6 +6,80 @@
   --secondaryColor: #B957CE;
   --thirdColor: #5994CE;
   --fourthColor: #3A4E93;
+  --cyberGreenOne: #60d4C8;
+  --cyberGreenTwo: #08EFA2;
+  --cyberGreenThree: #65FDDE;
+  --cyberPinkOne: #D32AC3;
+  --cyberPinkTwo: #FE85F8;
+  --cyberPinkThree: #ED2F96;
+  --cyberPurpleOne: #9E59D8;
+  --cyberPurpleTwo: #4B2F79;
+  --cyberPurpleThree: #3E2973;
+  --cyberBlueOne: #70B6DF;
+  --cyberBlueTwo: #33FEFA;
+  --cyberBlueThree: #56D4E0;
   --primaryFont: 'DotGothic16', sans-serif;
   --secondaryFont: 'Didact Gothic', sans-serif;
+  --cyberText: 'Cyber';
 }
+
+body{
+  margin: 0;
+  background-color: var(--cyberPurpleOne);
+}
+
+
+
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+img{
+  height: 50%;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--cyberText);
+  font-size: 3rem;
+  height: 20%;
+}
+
+.glow {
+  
+  color: var(--cyberPinkOne);
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.stroke{
+  text-shadow:
+  -3px -3px 0 #000,
+  3px -3px 0 #000,
+  -3px 3px 0 #000,
+  3px 3px 0 #000;  
+}
+
